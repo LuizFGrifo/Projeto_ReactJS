@@ -7,6 +7,42 @@
   height: 100vh;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #61dafb;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  background: #23232e;
+  height: 8vh;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
 header {
   background-color: #20232a;
   color: #61dafb;
@@ -19,11 +55,12 @@ header p {
 }
 
 main {
-  height: 100%;
+  height: 92vh;
   display: flex;
   /* Decide se vai ficar em linha ou coluna*/
   flex-direction: column;
   text-align: center;
+  background-size: cover;
 }
 
 .info {
@@ -50,7 +87,7 @@ h1 {
 }
 
 .pessoas {
-  background-color: #000;
+  background-color: #23232e;
   color: #fff;
 }
 

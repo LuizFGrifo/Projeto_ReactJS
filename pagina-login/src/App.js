@@ -8,7 +8,15 @@ export default function App() {
   return (
     <div className="container">
       <header>
-        <p>Turma de Programa 2023</p>
+        <nav>
+          <a className='logo' href="">Turma de programa 2023</a>
+          <ul className='nav-list'>
+            <li><a href="/">Início</a></li>
+            <li><a href="/">Sobre</a></li>
+            <li><a href="/">Projetos</a></li>
+            <li><a href="/">Contato</a></li>
+          </ul>
+        </nav>
       </header>
       <main>
         <section className='info'>
@@ -59,7 +67,7 @@ export default function App() {
               <p>Matéria chata para um caralho</p>
             </div>
             <div className='card'>
-              <a href='https://www.ime.usp.br/~pf/algoritmos/'> <button>Estrutura de Dados</button> </a>
+              <a href='https://www.ime.usp.br/~pf/algoritmos/' target="_blank"> <button>Estrutura de Dados</button> </a>
               <p>Estrutura de dados com C, quebrando a cabeça com ponteiro</p>
             </div>
             <div className='card'>
