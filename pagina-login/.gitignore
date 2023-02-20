@@ -19,7 +19,7 @@
 .env.production.local
 
 # Meus arquivos
-/Slides
+Slides/
 
 npm-debug.log*
 yarn-debug.log*
